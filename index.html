@@ -231,11 +231,9 @@ header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Aria
 <div  id='write'  class = 'is-node'>
   <h1><a name='header-n2' class='md-header-anchor '></a>umaron&#39;s homepage</h1>
   <p>To be built......</p>
-  <p><a href="http://steamcommunity.com/id/umaron"><img src="https://steamsignature.com/profile/tchinese/76561198231298304.png" alt=""/></a>
-    <img src='https://files.yande.re/sample/2555de7669c169cd98a6c9da7da27edd/yande.re%20447155%20sample%20feet%20maou_renjishi%20pantyhose.jpg' alt='' referrerPolicy='no-referrer' />
-    <img src='https://files.yande.re/sample/7542cb28c1901148eefc869397a87e38/yande.re%20433937%20sample%20breasts%20hiten%20hitenkei%20nipples%20no_bra%20pantsu%20panty_pull%20pantyhose%20shirt_lift%20sweater.jpg' alt='' referrerPolicy='no-referrer' />
-  </p></div>
-  
+  </div>
+  <div id="box"></div>
+  <button id="btn">加载</button>
   <script>
 var data = ["武汉", "上海", "广州", "aaa", "ccc", "ddd", "eee", "777", "888", "999", "10", "11"];
 var nums = 4;
@@ -252,15 +250,18 @@ var render = function(curr) {
 var boxDom = document.getElementById("box");
 boxDom.innerHTML = render(curr);
 // if(nums<=4){
-//   document.getElementById('#btn').display='none';
+    document.getElementById('#btn').display='none';
 // }
 document.getElementById("btn").onclick = function() {
     curr++;
-    boxDom.innerHTML += render(curr);
-    if (curr > 3) {
-        curr = 3;
-        alert("没有更多了");
-    }
+    boxDom.innerHTML += '<p><a href="http://steamcommunity.com/id/umaron"><img src="https://steamsignature.com/profile/tchinese/76561198231298304.png" alt=""/></a>
+    <img src='https://files.yande.re/sample/2555de7669c169cd98a6c9da7da27edd/yande.re%20447155%20sample%20feet%20maou_renjishi%20pantyhose.jpg' alt='' referrerPolicy='no-referrer' />
+    <img src='https://files.yande.re/sample/7542cb28c1901148eefc869397a87e38/yande.re%20433937%20sample%20breasts%20hiten%20hitenkei%20nipples%20no_bra%20pantsu%20panty_pull%20pantyhose%20shirt_lift%20sweater.jpg' alt='' referrerPolicy='no-referrer' />
+  </p>';
+//    if (curr > 3) {
+//        curr = 3;
+//        alert("没有更多了");
+//    }
 }
 
 </script>
