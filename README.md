@@ -2,7 +2,7 @@
 
 To be built......
 
-[1]: https://umaron.github.io/home/index.html	"index"
+[index](https://umaron.github.io/home/index.html)
 
 
 
