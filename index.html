@@ -44,5 +44,15 @@ vertical-align: middle;
 <p>Hi. Thou hast had a good night's sleep, I hope.</p>
 </div>
 <script type="application/javascript" src="index.js"></script>
+  <script>
+    var link = document.querySelector("a.github-link");
+    var octocat = document.querySelector("a.github-link > i.nes-octocat");
+    link.addEventListener("mouseover", function() {
+      octocat.classList.add("animate");
+    });
+    link.addEventListener("mouseout", function() {
+      octocat.classList.remove("animate");
+    });
+  </script>
 </html>
 
