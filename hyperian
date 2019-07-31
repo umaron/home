@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+<link rel="shortcut icon" sizes="196x196" href="favicon.png">
+<link rel="bookmark"href="/favicon.png"/>
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href="https://fonts.lug.ustc.edu.cn/css?family=Press+Start+2P" rel="stylesheet">
+<meta name='viewport' content='width=device-width initial-scale=1'>
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+<meta charset='UTF-8'>
+<title>umaron&#39;s mainpage</title>
+<style type="text/css">
+.bodydiv{max-width: 860px;margin: 0px auto; padding: 30px 30px 100px;font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6;}
+img { max-width: 100%; vertical-align: middle; }
+</style>
+</head>
+<body>
+<div class="bodydiv">
+<div class="nes-container is-rounded">
+<p>Hi. Thou hast had a good night's sleep, I hope.</p>
+</div>
+</div>
+<script type="application/javascript" src="index.js"></script>
+<script src="bg/dist/canvas-nest.js"></script>
+</body>
+</html>
